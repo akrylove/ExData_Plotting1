@@ -7,3 +7,4 @@ ds$Global_reactive_power <- as.numeric(as.vector(ds$Global_reactive_power))
 ds$Voltage <- as.numeric(as.vector(ds$Voltage))
 ds$datetime <- paste(ds$Date, ds$Time)
 ds$datetime <- as.POSIXlt(ds$datetime)
+ds_exists <- TRUE
